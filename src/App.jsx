@@ -4,7 +4,7 @@ import {
   LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer
 } from "recharts";
 
-const defaultTickers = ["AAPL", "MSFT", "GOOG", "AMZN", "TSLA", "QQQ", "DIA"];
+const defaultTickers = ["BTCUSD", "XAUUSD"];
 
 const App = () => {
   const [stocks, setStocks] = useState([]);
